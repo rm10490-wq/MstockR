@@ -1,0 +1,23 @@
+Collecting xgboost
+  Downloading xgboost-3.2.0-py3-none-win_amd64.whl (101.7 MB)
+     -------------------------------------- 101.7/101.7 MB 3.4 MB/s eta 0:00:00
+Collecting scikit-learn
+  Downloading scikit_learn-1.7.2-cp310-cp310-win_amd64.whl (8.9 MB)
+     ---------------------------------------- 8.9/8.9 MB 3.6 MB/s eta 0:00:00
+Requirement already satisfied: pandas in c:\users\ani\appdata\local\programs\python\python310\lib\site-packages (2.3.3)
+Requirement already satisfied: numpy in c:\users\ani\appdata\local\programs\python\python310\lib\site-packages (2.2.6)
+Collecting scipy
+  Downloading scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+     ---------------------------------------- 41.3/41.3 MB 3.2 MB/s eta 0:00:00
+Collecting joblib>=1.2.0
+  Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+     -------------------------------------- 309.1/309.1 kB 3.2 MB/s eta 0:00:00
+Collecting threadpoolctl>=3.1.0
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Requirement already satisfied: pytz>=2020.1 in c:\users\ani\appdata\local\programs\python\python310\lib\site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\ani\appdata\local\programs\python\python310\lib\site-packages (from pandas) (2025.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\ani\appdata\local\programs\python\python310\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in c:\users\ani\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Installing collected packages: threadpoolctl, scipy, joblib, xgboost, scikit-learn
+Successfully installed joblib-1.5.3 scikit-learn-1.7.2 scipy-1.15.3 threadpoolctl-3.6.0 xgboost-3.2.0
+EXIT=0

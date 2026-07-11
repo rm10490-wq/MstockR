@@ -1,0 +1,28 @@
+# Signal Desk backend — full dependency set (Phases 1–6).
+# Install into a fresh venv:  pip install -r requirements.txt
+
+# --- API / server ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# --- Phase 2: real NSE prices ---
+yfinance==1.5.1
+pandas==2.3.3
+numpy==2.2.6
+
+# --- Phase 3: real news + FinBERT sentiment ---
+# (news feed uses only the stdlib; FinBERT needs torch + transformers, ~600MB)
+transformers==5.13.0
+torch==2.13.0
+
+# --- Phase 4/5: trained model + backtest ---
+xgboost==3.2.0
+scikit-learn==1.7.2
+
+# --- Phase 6: scheduled polling ---
+APScheduler==3.11.3
+
+# --- MySQL analysis store (store_data.py) ---
+SQLAlchemy==2.0.51
+PyMySQL==1.2.0
+cryptography==49.0.0

@@ -1,0 +1,41 @@
+{
+  "trained_at": "2026-07-10T18:35:39.558973+00:00",
+  "features": [
+    "ret_1",
+    "ret_5",
+    "ret_10",
+    "ret_20",
+    "close_ma5",
+    "close_ma10",
+    "close_ma20",
+    "ma5_ma20",
+    "vol_10",
+    "vol_20",
+    "rsi_14",
+    "mom_10",
+    "vol_chg_5"
+  ],
+  "horizon": 5,
+  "period": "5y",
+  "n_tickers": 15,
+  "train_rows": 14522,
+  "test_rows": 3585,
+  "oos_accuracy": 0.496,
+  "oos_auc": 0.4953,
+  "majority_baseline": 0.516,
+  "importances": {
+    "mom_10": 0.0936,
+    "vol_20": 0.0825,
+    "close_ma20": 0.0819,
+    "ret_10": 0.0801,
+    "vol_10": 0.0792,
+    "ma5_ma20": 0.0771,
+    "rsi_14": 0.0761,
+    "ret_20": 0.0755,
+    "ret_5": 0.0738,
+    "close_ma10": 0.0736,
+    "vol_chg_5": 0.0722,
+    "close_ma5": 0.0684,
+    "ret_1": 0.0661
+  }
+}

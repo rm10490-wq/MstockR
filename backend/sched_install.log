@@ -1,0 +1,9 @@
+Collecting apscheduler
+  Downloading apscheduler-3.11.3-py3-none-any.whl (66 kB)
+     ---------------------------------------- 66.0/66.0 kB 1.2 MB/s eta 0:00:00
+Collecting tzlocal>=3.0
+  Downloading tzlocal-5.4.4-py3-none-any.whl (18 kB)
+Requirement already satisfied: tzdata in c:\users\ani\appdata\local\programs\python\python310\lib\site-packages (from tzlocal>=3.0->apscheduler) (2025.2)
+Installing collected packages: tzlocal, apscheduler
+Successfully installed apscheduler-3.11.3 tzlocal-5.4.4
+EXIT=0
